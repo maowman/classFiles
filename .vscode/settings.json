@@ -42,6 +42,8 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp",
-        "iomanip": "cpp"
-    }
+        "iomanip": "cpp",
+        "ctime": "cpp"
+    },
+    "python.pythonPath": "C:\\Program Files\\Python38\\python.exe"
 }

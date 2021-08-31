@@ -43,7 +43,9 @@
         "streambuf": "cpp",
         "typeinfo": "cpp",
         "iomanip": "cpp",
-        "ctime": "cpp"
+        "ctime": "cpp",
+        "strstream": "cpp",
+        "map": "cpp"
     },
     "python.pythonPath": "C:\\Program Files\\Python38\\python.exe"
 }

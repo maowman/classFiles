@@ -45,7 +45,8 @@
         "iomanip": "cpp",
         "ctime": "cpp",
         "strstream": "cpp",
-        "map": "cpp"
+        "map": "cpp",
+        "cstring": "cpp"
     },
     "python.pythonPath": "C:\\Program Files\\Python38\\python.exe"
 }

@@ -18,6 +18,6 @@ int main()
     std::cout << "    [_____________]  ) " << std::endl;
     std::cout << "    /LLLLLLLLLL LL|   (____ " << std::endl;
     std::cout << "   /LLLLLLLLLLL LLL|   |>|| " << std::endl;
-    std::cout << "  (_____[[[]]]]_____)  |__| " << std::endl;
-    return 0;
+    std::cout << "  (_____[[[]]]]_____)  |__| " << std::endl; // output complete
+    return 0; 
 }

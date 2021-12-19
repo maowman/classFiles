@@ -46,8 +46,10 @@
         "ctime": "cpp",
         "strstream": "cpp",
         "map": "cpp",
-        "cstring": "cpp"
+        "cstring": "cpp",
+        "set": "cpp"
     },
     "python.pythonPath": "C:\\Program Files\\Python38\\python.exe",
-    "python.formatting.provider": "autopep8"
+    "python.formatting.provider": "autopep8",
+    "C_Cpp.errorSquiggles": "Disabled"
 }

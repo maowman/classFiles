@@ -9,7 +9,7 @@ with open("lab2Data.txt") as file:
         time.append(a)
         voltage.append(b)
     avgrVoltage = []
-    avgrNumber = 10
+    avgrNumber = 20
     for i in range(len(voltage)):
         try:
             total = voltage[i]
@@ -21,7 +21,7 @@ with open("lab2Data.txt") as file:
     deltaVoltage = []
     for i in range(len(voltage)):
         try:
-            delta = (voltage[i+1] - voltage[i])/(time[i+1] - time[i])
+            delta = (avgrVoltage[i+1] - avgrVoltage[i])/(time[i+1] - time[i])
             deltaVoltage.append(delta)
         except IndexError:
             deltaVoltage.append(0)
@@ -29,7 +29,7 @@ with open("lab2Data.txt") as file:
     plt.plot(time, voltage, label="raw voltage" , linewidth = 0.1)
     plt.plot(time, avgrVoltage, label="flatten voltage" , linewidth = 0.1)
     plt.plot(time, deltaVoltage, label="delta voltage" , linewidth = 0.1)
-    plt.xlabel('Time(ms)')
+    plt.xlabel('Time(sec)')
     plt.ylabel("Voltage(mV)")
     plt.title("Lab2 data")
     plt.legend()
